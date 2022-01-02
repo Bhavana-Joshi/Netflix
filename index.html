@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+   
+    .maindiv{
+    width: 66%;
+    height: 60%; 
+    top: 48%;
+    margin-top: 2em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    background-image: url("https://www.allkpop.com/upload/2021/09/content/281305/web_data/allkpop_1632848846_squidgame.jpg");
+    box-shadow: 0px 0px 15px 4.5px rgba(230, 216, 216, 0.705);
+    animation:slider 10s infinite linear;
+    border-radius: 12px;
+  }
+
+  @media  (max-width:800px) {
+   .maindiv{
+     width: 80%;
+     margin-left: -28px;
+    
+   }
+  
+  
+ }
+
+@keyframes slider {
+    0%{background-image: url("https://www.allkpop.com/upload/2021/09/content/281305/web_data/allkpop_1632848846_squidgame.jpg");}
+    25%{background-image: url("https://wallpapercave.com/wp/wp5993832.png"); }
+    50%{background-image: url("https://wallpapercave.com/wp/wp7272097.jpg");}
+    75%{background-image: url("https://bloody-disgusting.com/wp-content/uploads/2019/12/Locke-and-Key.jpg");}
+  }
+</style>
+</head>
+
+
+<body> 
+
+   <header>
+        <img src="image/logo.jpg" alt="Netflix logo" id="logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">My List</a>
+            <a href="#">Latest</a>
+            <a href="#">Login/SignUp</a>
+        </nav>
+   </header>
+
+   <main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="maindiv">
+            </div>
+       
+        <div class="split">
+            <section>
+                
+                <h2>In Theater</h2><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rt-2cxAiPJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <br><br>
+            <section>
+                <h2>Continue Watching</h2>
+                <img src="image/st.jpg" alt="" width="400px" height="200">
+                <img src="image/squid.jpg" alt="" width="400px" height="200px">
+                <img src="image/lis.jpg" alt="" width="400" height="200">
+            </section>
+            
+            <section>
+                <h2>Popular on Netflix</h2>
+                <img src="image/lucifer.jpg" alt="" width="400px"  height="200px">
+                <img src="image/mh.jpg" alt="" width="400px" height="200px">
+                <img src="image/you.jpg" alt="" width="400px" height="200px">
+            </section>
+            
+            <section>
+                <h2>Top Rated</h2>
+                <img src="image/friends.jpg" alt="" width="400px" height="200px">
+                <img src="image/pb.jpg" alt="" width="400px" height="200px">
+                <img src="image/lak.jpg" alt="" width="400px" height="200px">
+        
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy;2020 &nbsp;| &nbsp;Bhavana Joshi</a>
+    </footer>
+</body>
+</html>
